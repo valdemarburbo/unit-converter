@@ -13,6 +13,10 @@ main {
     align-items: center;
     justify-content: center;
     padding: 0;
+    height: 80vh;
+    max-width: 40rem;
+    min-width: 32rem;
+    margin: 0 auto;
 }
 
 .upper-section {
@@ -20,6 +24,7 @@ main {
     flex-direction: column;
     align-items: center;
     background-color: #059669;
+    border-radius: 0.5rem 0.5rem 0 0;
     color: #F4F4F4;
     padding: 1rem;
     width: 100%;
@@ -71,9 +76,28 @@ h1 {
     background-color: #ECFDF5;
     width: 100%;
     padding: 1rem;
+    border-radius: 0 0 0.5rem 0.5rem;
 }
 
 h2 {
     color: #064E3B;
+    margin: 0;
+    text-align: center;
+}
+
+div {
+    background-color: white;
+    width: 30rem;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    border-radius: 0.5rem;
+}
+
+p {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
     margin: 0;
 }
